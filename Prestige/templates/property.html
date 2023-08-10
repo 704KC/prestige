@@ -1,0 +1,11 @@
+{% extends "base.html" %} {% block content %}
+<p>Properties available</p>
+<ul>
+ {% for property in properties %}
+ <li>{{ property }}</li>
+{% empty %}
+<li>No property have been added yet.</li>
+{% endfor %}
+
+</ul>
+{% endblock content %}

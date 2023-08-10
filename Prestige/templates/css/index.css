@@ -1,0 +1,68 @@
+.main {
+  height: 600px;
+  width: 600px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.row1 {
+  justify-content: space-between;
+}
+
+.Apply,
+.photo,
+.hoby,
+.contact {
+  height: 150px;
+  background-color: whitesmoke;
+  margin: 10px;
+}
+
+.Apply {
+  width: 200px;
+  font-size: medium;
+}
+
+.photo {
+  width: 200px;
+  border-color: yellowgreen;
+}
+
+.hoby {
+  width: 200px;
+}
+
+.contact {
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  text-shadow: 20px;
+}
+
+a {
+  text-decoration: brown;
+}
+
+.Apply:hover a {
+  color: brown;
+}
+
+.photo:hover a {
+  color: brown;
+}
+
+.contact:hover a {
+  color: brown;
+}
+
+.hoby:hover a {
+  color: brown;
+}
+
